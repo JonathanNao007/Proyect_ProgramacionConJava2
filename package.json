@@ -1,0 +1,29 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/JonathanNao007/Proyect_ProgramacionConJava2#readme",
+  "bugs": {
+    "url": "https://github.com/JonathanNao007/Proyect_ProgramacionConJava2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanNao007/Proyect_ProgramacionConJava2.git"
+  },
+  "license": "MIT",
+  "author": "Jonathan Sanchez",
+  "type": "commonjs",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.3",
+    "sass": "^1.97.2"
+  },
+  "dependencies": {
+    "parcel": "^2.16.3",
+    "v2": "^0.0.3"
+  }
+}
