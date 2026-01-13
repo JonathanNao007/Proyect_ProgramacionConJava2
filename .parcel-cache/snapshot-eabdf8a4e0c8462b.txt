@@ -24,7 +24,7 @@
 118C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\caniuse-lite\data\features\css-focus-visible.js134126736342804956 0
 111C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\caniuse-lite\data\features\web-serial.js134126736363525524 0
 102C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\caniuse-lite\data\regions\IT.js134126736352725755 0
-62C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\dist134126737368827514 1
+62C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\dist134127509235358206 1
 104C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\caniuse-lite\dist\lib\statuses.js134126736360372844 0
 96C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@swc\helpers\src\_get.mjs134126736347248810 0
 112C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\sass\node_modules\chokidar\esm\handler.js134126734894395039 0
@@ -133,7 +133,7 @@
 94C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\semver\functions\neq.js134126736333247920 0
 124C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@swc\helpers\_\_async_generator_delegate\package.json134126736342470565 0
 118C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\resolver-default\lib\DefaultResolver.js134126736325125720 0
-78C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\controller.js133147587000000000 0
+78C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\controller.js134127509235000425 0
 87C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\msgpackr-extract134126736327529858 1
 88C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\type-fest\license134126736324122113 0
 77C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\img\favicon.png133147587000000000 0
@@ -544,7 +544,7 @@
 114C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\watcher\src\kqueue\KqueueBackend.cc134126736330468298 0
 108C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@swc\helpers\esm\_class_call_check.js134126736338254470 0
 89C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\clone\package.json134126736324224835 0
-103C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\dist\Proyect_ProgramacionConJava2.62406edb.js134126737368505577 0
+103C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\dist\Proyect_ProgramacionConJava2.62406edb.js134127509235322539 0
 90C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\type-fest\base.d.ts134126736327452466 0
 112C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\caniuse-lite\data\features\pointerlock.js134126736357978116 0
 91C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\type-fest\index.d.ts134126736330913707 0
@@ -2038,7 +2038,7 @@
 112C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\caniuse-lite\data\features\blobbuilder.js134126736336966215 0
 99C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\transformer-posthtml134126736327508636 1
 109C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\caniuse-lite\data\features\bloburls.js134126736337042248 0
-107C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\dist\Proyect_ProgramacionConJava2.62406edb.js.map134126737368827514 0
+107C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\dist\Proyect_ProgramacionConJava2.62406edb.js.map134127509235348110 0
 113C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\caniuse-lite\data\features\border-image.js134126736337280049 0
 92C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\browserslist\parse.js134126736327682019 0
 114C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\caniuse-lite\data\features\border-radius.js134126736337343703 0
