@@ -1,9 +1,12 @@
+import icons from 'url:../img/icons.svg';
+import recipeView from './views/recipeView';
+import * as model from './models';
 const recipeContainer = document.querySelector('.recipe');
-const icons = '../src/img/icons.svg';
+
 
 const timeout = function (s) {
   return new Promise(function (_, reject) {
-    setTimeout(function () {
+    setTimeout(function () { 
       reject(new Error(`Request took too long! Timeout after ${s} second`));
     }, s * 1000);
   });
@@ -15,24 +18,28 @@ const timeout = function (s) {
 
 async function showRecipe() {
   try{
-    const resp = await fetch('https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886');
-    const data = await resp.json();
-
-    let recipe = data.data.recipe;
-      console.log(recipe);
-      console.log(recipe.id),
-    recipe = {
-                id: recipe.id,
-                title: recipe.title,
-                publisher: recipe.publisher,
-                sourceUrl: recipe.source_url,
-                image: recipe.image_url,
-                servings: recipe.servings,
-                cookTime: recipe.cooking_time,
-                ingredients: recipe.ingredients,
-                };
-    console.log(recipe);
-
+    //renderSpinner(recipeContainer);
+    const id = window.location.hash.slice(1);
+    //console.log(id);
+    if(!id){
+      return;
+    }
+    recipeView.renderSpinner();
+    // const resp = await fetch(`https://forkify-api.herokuapp.com/api/v2/recipes/${id}`);  
+    // const data = await resp.json();   
+    await model.loadRecipe(id); 
+    const recipe = model.state;
+    // let recipe = data.data.recipe;
+    // recipe = {
+    //             id: recipe.id,
+    //             title: recipe.title,
+    //             publisher: recipe.publisher,
+    //             sourceUrl: recipe.source_url,
+    //             image: recipe.image_url,
+    //             servings: recipe.servings,
+    //             cookTime: recipe.cooking_time,
+    //             ingredients: recipe.ingredients,
+    //             }; 
     const markup = `<figure class="recipe__fig">
           <img src="${recipe.image}" alt="Tomato" class="recipe__img" />
           <h1 class="recipe__title">
@@ -99,9 +106,7 @@ async function showRecipe() {
               </li>
               `;}).join('') }
           </ul>          
-        </div>
-
-        
+        </div>        
 
         <div class="recipe__directions">
           <h2 class="heading--2">How to cook it</h2>
@@ -121,7 +126,6 @@ async function showRecipe() {
             </svg>
           </a>
         </div>`;
-
         recipeContainer.innerHTML = '';
         recipeContainer.insertAdjacentHTML('afterbegin', markup);
   }
@@ -132,8 +136,24 @@ async function showRecipe() {
   
 }
 
+// function renderSpinner(parentEl){
+//   let markup = `<div class="spinner">
+//           <svg>
+//             <use href="src/img/icons.svg#icon-loader"></use>
+//           </svg>
+//         </div> `;
+//   parentEl.innerHTML = '';
+//   parentEl.insertAdjacentHTML('afterbegin', markup);
+// }
+
+//Event listener
 document.addEventListener('DOMContentLoaded', function(){
-    console.log('App lista para interacción.')
-    //Primer ejercicio
-    showRecipe();
+    //console.log('App lista para interacción.')
+    //showRecipe();
+    
+});
+
+const arr = ['hashchange', 'load'].forEach((ev)=>{
+  // console.log(ev);
+  document.addEventListener(ev, showRecipe());
 });

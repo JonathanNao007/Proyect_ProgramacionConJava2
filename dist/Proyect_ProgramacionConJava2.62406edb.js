@@ -1,5 +1,5 @@
 const recipeContainer = document.querySelector('.recipe');
-const icons = '../src/img/icons.svg';
+const icons = 'url:../img/icons.svg';
 const timeout = function(s) {
     return new Promise(function(_, reject) {
         setTimeout(function() {
@@ -11,11 +11,14 @@ const timeout = function(s) {
 ///////////////////////////////////////
 async function showRecipe() {
     try {
-        const resp = await fetch('https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886');
+        renderSpinner(recipeContainer);
+        let id = window.location.hash.slice(1);
+        console.log(id);
+        if (!id) return;
+        const resp = await fetch(`https://forkify-api.herokuapp.com/api/v2/recipes/${id}`);
         const data = await resp.json();
         let recipe = data.data.recipe;
-        console.log(recipe);
-        console.log(recipe.id), recipe = {
+        recipe = {
             id: recipe.id,
             title: recipe.title,
             publisher: recipe.publisher,
@@ -25,7 +28,6 @@ async function showRecipe() {
             cookTime: recipe.cooking_time,
             ingredients: recipe.ingredients
         };
-        console.log(recipe);
         const markup = `<figure class="recipe__fig">
           <img src="${recipe.image}" alt="Tomato" class="recipe__img" />
           <h1 class="recipe__title">
@@ -92,9 +94,7 @@ async function showRecipe() {
               `;
         }).join('')}
           </ul>          
-        </div>
-
-        
+        </div>        
 
         <div class="recipe__directions">
           <h2 class="heading--2">How to cook it</h2>
@@ -121,10 +121,26 @@ async function showRecipe() {
         alert(err);
     }
 }
+function renderSpinner(parentEl) {
+    let markup = `<div class="spinner">
+          <svg>
+            <use href="src/img/icons.svg#icon-loader"></use>
+          </svg>
+        </div> `;
+    parentEl.innerHTML = '';
+    parentEl.insertAdjacentHTML('afterbegin', markup);
+}
+//Event listener
 document.addEventListener('DOMContentLoaded', function() {
     console.log("App lista para interacci\xf3n.");
-    //Primer ejercicio
-    showRecipe();
+//showRecipe();
+});
+const arr = [
+    'hashchange',
+    'load'
+].forEach((ev)=>{
+    console.log(ev);
+    document.addEventListener(ev, showRecipe());
 });
 
 //# sourceMappingURL=Proyect_ProgramacionConJava2.62406edb.js.map
