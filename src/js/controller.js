@@ -1,4 +1,4 @@
-import icons from 'url:../img/icons.svg';
+// import icons from 'url:../img/icons.svg';
 import recipeView from './views/recipeView';
 import * as model from './models';
 const recipeContainer = document.querySelector('.recipe');
