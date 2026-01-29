@@ -1,5 +1,5 @@
 import icons from 'url:../../img/icons.svg';
-// import Fraction from 'fractional.js';
+import Fraction from 'fracty';
 import { fraction, Fraction } from 'mathjs';
 import view from './view';
 
@@ -125,14 +125,13 @@ class RecepieView extends view {
     `;
   }
   _generateMarkupIngredient(ing) {
-    console.log(ing.quantity);
     return `
     <li class="recipe__ingredient">
     <svg class="recipe__icon">
       <use href="${icons}#icon-check"></use>
     </svg>
     <div class="recipe__quantity">${
-      ing.quantity ? fraction(ing.quantity).toString() : ''
+      ing.quantity ? floatAFraccionSimple(ing.quantity) : ''
     }</div>
     <div class="recipe__description">
       <span class="recipe__unit">${ing.unit}</span>
@@ -141,6 +140,29 @@ class RecepieView extends view {
   </li>
     `;
   }
+}
+
+function simplificarFraccion(numerador, denominador) {
+    const mcd = (a, b) => b === 0 ? a : mcd(b, a % b);
+    const divisor = mcd(numerador, denominador);    
+    let nnumerador = (numerador/divisor);
+    let ndenominador = (denominador/divisor);
+    // console.log(`${nnumerador}/${ndenominador}`)
+    return [nnumerador, ndenominador];
+}
+
+function floatAFraccionSimple(decimal) {
+    const str = decimal.toString();
+    // console.log(str);
+    if (str.indexOf('.') === -1) {
+        return `${decimal}`;
+    }
+    const decimales = str.length - str.indexOf('.') - 1;
+    const denominador = Math.pow(10, decimales);
+    const numerador = decimal * denominador;
+    
+    const [num, den] = simplificarFraccion(numerador, denominador);
+    return `${num}/${den}`;
 }
 
 export default new RecepieView();
