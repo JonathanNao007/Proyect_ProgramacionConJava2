@@ -1,6 +1,6 @@
 import icons from 'url:../../img/icons.svg';
-import Fraction from 'fracty';
-import { fraction, Fraction } from 'mathjs';
+// import Fraction from 'fracty';
+// import { fraction, Fraction } from 'mathjs';
 import view from './view';
 
 class RecepieView extends view {
