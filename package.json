@@ -23,6 +23,10 @@
     "sass": "^1.97.2"
   },
   "dependencies": {
+    "assert": "^2.1.0",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.12",
+    "mathjs": "^15.1.0",
     "parcel": "^2.16.3",
     "v2": "^0.0.3"
   }
