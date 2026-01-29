@@ -1,5 +1,5 @@
 import view from './view';
-import icons from 'url:../../img/icons.svg';
+const icons = new URL('../../img/icons.svg', import.meta.url).href;
 
 class PreviewView extends view {
   _parentElement = '';
