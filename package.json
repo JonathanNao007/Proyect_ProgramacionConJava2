@@ -19,8 +19,7 @@
     "build": "parcel build index.html"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.16.3",
-    "sass": "^1.97.2"
+    "@parcel/transformer-sass": "^2.16.3"
   },
   "dependencies": {
     "assert": "^2.1.0",

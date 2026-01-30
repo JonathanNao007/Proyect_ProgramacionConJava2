@@ -1,4 +1,4 @@
-7640
+7641
 105C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\parcel\lib\scope-hoisting\hoist.js134139684001308559 0
 77C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\base-x134126736326124898 1
 143C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\esm\entry\dependenciesNumber\dependenciesSQRT1_2.generated.js134141401405677589 0
@@ -20,7 +20,7 @@
 69C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\.prettierrc134126673565883755 0
 89C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\es-errors\range.js134141276764071304 0
 120C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\esm\type\matrix\utils\matAlgo12xSfs.js134141401420058733 0
-62C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\dist134141468584493810 1
+62C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\dist134142266815680516 1
 112C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\sass\node_modules\chokidar\esm\handler.js134126734894395039 0
 108C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\transformer-babel\lib\flow.js134141275938771891 0
 81C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\semver\bin134126736334240914 1
@@ -56,7 +56,7 @@
 77C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\dotenv134126736328930501 1
 142C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\entry\dependenciesNumber\dependenciesFormat.generated.js134141401390830117 0
 89C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\.package-lock.json134141401438029303 0
-70C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\package.json134141401437388887 0
+70C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\package.json134142258936304793 0
 105C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\sass\node_modules\readdirp\LICENSE134126734894306952 0
 113C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\function\arithmetic\ceil.js134141401372522022 0
 102C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\profiler\lib\index.d.ts134126736330572518 0
@@ -73,7 +73,7 @@
 140C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\expression\embeddedDocs\function\geometry\intersect.js134141401415625180 0
 137C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\entry\dependenciesAny\dependenciesMode.generated.js134141401398357414 0
 97C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\utils\src\index.js134126736334685183 0
-78C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\views\view.js134141275950688579 0
+78C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\views\view.js134141485455075612 0
 111C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\parcel\src\utils\isAccessedVarChanged.js134139684017144741 0
 86C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\sass\_searchResults.scss133147587000000000 0
 126C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@babel\runtime\helpers\esm\classPrivateFieldLooseKey.js134141401365672064 0
@@ -93,7 +93,7 @@
 107C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\transformer-raw\package.json134141275939803170 0
 99C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\math-intrinsics\package.json134141276767369466 0
 119C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\esm\expression\embeddedDocs\constants134141401436116326 1
-88C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\views\paginationView.js134141284061053905 0
+88C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\views\paginationView.js134141485455095691 0
 90C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\regenerator-runtime134141275949912652 1
 136C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\expression\embeddedDocs\function\bitwise\bitNot.js134141401369778868 0
 144C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\entry\dependenciesAny\dependenciesDotMultiply.generated.js134141401388570474 0
@@ -177,7 +177,7 @@
 112C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\function\bitwise\bitAnd.js134141401368444858 0
 124C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@swc\helpers\_\_async_generator_delegate\package.json134141275940174854 0
 151C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\esm\entry\dependenciesNumber\dependenciesCumSumTransform.generated.js134141401387813837 0
-78C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\controller.js134141337615715795 0
+78C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\controller.js134141477581309353 0
 83C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\types134141401436926079 1
 133C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\seedrandom\coverage\lcov-report\seedrandom\lib\xor4096.js.html134141401364866800 0
 74C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\models.js134141459162665917 0
@@ -193,7 +193,7 @@
 141C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\entry\dependenciesNumber\dependenciesEqual.generated.js134141401388993212 0
 112C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\caniuse-lite\data\features\svg-filters.js134126736360722350 0
 116C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\node-gyp-build-optional-packages\package.json134126736327008651 0
-84C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\views\recipeView.js134141458900880603 0
+84C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\views\recipeView.js134141483183704937 0
 100C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\parcel\lib\utils\pipeSpawn.js134139684008276477 0
 101C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\function\matrix134141401436453688 1
 70C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\views134141338157537088 1
@@ -213,7 +213,7 @@
 140C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\entry\dependenciesNumber\dependenciesMode.generated.js134141401398357414 0
 112C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@babel\runtime\helpers\esm\createSuper.js134141401366148618 0
 138C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\entry\dependenciesAny\dependenciesRound.generated.js134141401403420004 0
-87C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\views\bookmarksView.js134141284089347366 0
+87C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\views\bookmarksView.js134141485455095691 0
 123C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\esm\function\arithmetic\subtractScalar.js134141401433092964 0
 110C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\plain\bignumber\index.js134141401415227313 0
 75C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\util134141276765154176 1
@@ -232,7 +232,7 @@
 142C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\entry\dependenciesAny\dependenciesArrayNode.generated.js134141401382142424 0
 104C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\caniuse-lite\data\features\eot.js134126736348222075 0
 101C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\type-fest\ts41\snake-case.d.ts134141275950600449 0
-85C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\views\previewView.js134141284818883890 0
+85C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\src\js\views\previewView.js134141485455075612 0
 89C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\for-each\.eslintrc134141276762994480 0
 104C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\esm\factoriesNumber.js134141401412151888 0
 83C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\caniuse-lite134126736364650837 1
@@ -306,7 +306,7 @@
 118C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\caniuse-lite\data\features\custom-elementsv1.js134126736346787298 0
 119C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\esm\function\combinatorics\catalan.js134141401372193853 0
 140C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\esm\entry\dependenciesNumber\dependenciesSign.generated.js134141401404388937 0
-103C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\dist\Proyect_ProgramacionConJava2.4a59a05f.js134141459161885551 0
+103C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\dist\Proyect_ProgramacionConJava2.4a59a05f.js134141487862854426 0
 115C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\lmdb\node_modules\node-addon-api\except.gypi134126736326025125 0
 116C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@swc\helpers\cjs\_class_private_field_get.cjs134141275942046373 0
 92C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\sass\sass.default.cjs134126734894881792 0
@@ -2002,7 +2002,7 @@
 86C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\.bin\parcel.cmd134141275935189661 0
 123C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\runtime-js\src\helpers\browser\css-loader.js134141275938260991 0
 142C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\esm\entry\dependenciesNumber\dependenciesSubset.generated.js134141401406275636 0
-81C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\dist\icons.c5b0f01c.svg134141468581493151 0
+81C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\dist\icons.c5b0f01c.svg134142266815638452 0
 119C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\function\arithmetic\unaryMinus.js134141401434842883 0
 92C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\dunder-proto\get.d.ts134141276766670305 0
 105C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\parcel\src\utils\getCertificate.js134139684016785885 0
@@ -5211,7 +5211,7 @@
 148C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\entry\dependenciesAny\dependenciesNuclearMagneton.generated.js134141401399382557 0
 121C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@babel\runtime\helpers\objectDestructuringEmpty.js134141401368219471 0
 137C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\entry\dependenciesAny\dependenciesNull.generated.js134141401399382557 0
-107C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\dist\Proyect_ProgramacionConJava2.4a59a05f.js.map134141459162017595 0
+107C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\dist\Proyect_ProgramacionConJava2.4a59a05f.js.map134141487862924729 0
 143C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\entry\dependenciesAny\dependenciesObjectNode.generated.js134141401400040102 0
 117C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\caniuse-lite\data\features\text-size-adjust.js134126736361307371 0
 145C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\mathjs\lib\cjs\entry\dependenciesAny\dependenciesOperatorNode.generated.js134141401400147074 0
@@ -7432,6 +7432,7 @@
 101C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\core\lib\buildCache.js134126736333725408 0
 101C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\core\src\Dependency.js134126736335883837 0
 110C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\core\src\dumpGraphToGraphViz.js134126736336259088 0
+81C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\dist\icons.7bd9dd61.svg134141487863129594 0
 101C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\core\src\loadDotEnv.js134126736337455916 0
 107C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\core\src\loadParcelPlugin.js134126736337556804 0
 105C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\core\src\PackagerRunner.js134126736338133652 0
@@ -7481,7 +7482,7 @@
 111C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\core\lib\requests\PathRequest.js134126736338985158 0
 113C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\core\lib\requests\TargetRequest.js134126736341179838 0
 117C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\core\lib\requests\ValidationRequest.js134126736342096485 0
-119C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\core\lib\requests\WriteBundlesRequest.js134126736342509701 0
+119C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\core\lib\requests\WriteBundlesRequest.js134142268034741981 0
 103C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\core\lib\public\Asset.js134126736331782915 0
 111C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\core\lib\public\PluginOptions.js134126736339146523 0
 101C:\Proyectos\CursoTecMilenio\Proyect_ProgramacionConJava2\node_modules\@parcel\config-default\LICENSE134141275935387556 0
