@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "author": "Jonathan Sanchez",
-  "type": "commonjs",
+  "type": "module",
   "source": "index.html",
   "scripts": {
     "start": "parcel index.html",
